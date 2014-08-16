@@ -2,10 +2,10 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
 
   <title><![CDATA[Kamil Gorlo]]></title>
-  <link href="http://www.kamilgorlo.com/atom.xml" rel="self"/>
-  <link href="http://www.kamilgorlo.com/"/>
-  <updated>2014-08-16T17:34:45+02:00</updated>
-  <id>http://www.kamilgorlo.com/</id>
+  <link href="http://kgs.github.io/atom.xml" rel="self"/>
+  <link href="http://kgs.github.io/"/>
+  <updated>2014-08-16T17:50:29+02:00</updated>
+  <id>http://kgs.github.io/</id>
   <author>
     <name><![CDATA[Kamil Gorlo]]></name>
     <email><![CDATA[kgorlo+blog@gmail.com]]></email>
@@ -15,9 +15,9 @@
   
   <entry>
     <title type="html"><![CDATA[Why Blog?]]></title>
-    <link href="http://www.kamilgorlo.com/blog/why-blog/"/>
+    <link href="http://kgs.github.io/blog/why-blog/"/>
     <updated>2014-08-16T16:45:55+02:00</updated>
-    <id>http://www.kamilgorlo.com/blog/why-blog</id>
+    <id>http://kgs.github.io/blog/why-blog</id>
     <content type="html"><![CDATA[<p>OK, this is awkward. My first blog post. I never thought that this moment would come, but somehow I am here. Let&rsquo;s see how this gonna work. Do you wonder why I started this site? If yes - read on!</p>
 
 <!-- more -->
