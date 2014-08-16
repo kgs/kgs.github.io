@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+  <title><![CDATA[Category: Life | Kamil Gorlo]]></title>
+  <link href="http://www.kamilgorlo.com/blog/categories/life/atom.xml" rel="self"/>
+  <link href="http://www.kamilgorlo.com/"/>
+  <updated>2014-08-16T17:34:45+02:00</updated>
+  <id>http://www.kamilgorlo.com/</id>
+  <author>
+    <name><![CDATA[Kamil Gorlo]]></name>
+    <email><![CDATA[kgorlo+blog@gmail.com]]></email>
+  </author>
+  <generator uri="http://octopress.org/">Octopress</generator>
+
+  
+  <entry>
+    <title type="html"><![CDATA[Why Blog?]]></title>
+    <link href="http://www.kamilgorlo.com/blog/why-blog/"/>
+    <updated>2014-08-16T16:45:55+02:00</updated>
+    <id>http://www.kamilgorlo.com/blog/why-blog</id>
+    <content type="html"><![CDATA[<p>OK, this is awkward. My first blog post. I never thought that this moment would come, but somehow I am here. Let&rsquo;s see how this gonna work. Do you wonder why I started this site? If yes - read on!</p>
+
+<!-- more -->
+
+
+<p>This is one of the ideas that you have, but because of your laziness or lack of time you decide to give up.</p>
+
+<p>TBC&hellip;</p>
+]]></content>
+  </entry>
+  
+</feed>
