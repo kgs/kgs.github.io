@@ -1,0 +1,15 @@
+---
+layout: post
+title: "Why blog?"
+date: 2014-08-16 16:45:55 +0200
+comments: true
+categories: life
+---
+
+OK, this is awkward. My first blog post. I never thought that this moment would come, but somehow I am here. Let's see how this gonna work. Do you wonder why I started this site? If yes - read on!
+
+<!-- more -->
+
+This is one of the ideas that you have, but because of your laziness or lack of time you decide to give up.
+
+TBC...
