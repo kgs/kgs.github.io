@@ -33,6 +33,11 @@
   <li><a href="https://bitbucket.org/{{ site.bitbucket_user }}" rel="subscribe-bitbucket" title="@{{ site.bitbucket_user }} on Bitbucket">Bitbucket</a></li>
 </ul>
   {% endif %}
+  {% if site.twitter_user %}
+<ul class="subscription">
+  <li><a href="https://twitter.com/{{ site.twitter_user }}" rel="subscribe-twitter" title="@{{ site.twitter_user }} on Twitter">Twitter</a></li>
+</ul>
+  {% endif %}
   {% if site.simple_search %}
 <form action="{{ site.simple_search }}" method="get">
   <fieldset role="search">
