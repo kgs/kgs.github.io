@@ -3,7 +3,7 @@
   
   
   <url>
-    <loc>http://www.kamilgorlo.com/blog/2014/08/16/why-blog/</loc>
+    <loc>http://www.kamilgorlo.com/2014/08/16/why-blog/</loc>
     <lastmod>2014-08-16T16:45:55+02:00</lastmod>
     <priority>0.8</priority>
   </url>
@@ -11,21 +11,28 @@
   
   <url>
     <loc>http://www.kamilgorlo.com/blog/archives/</loc>
-    <lastmod>2014-08-17T21:33:43+02:00</lastmod>
+    <lastmod>2014-08-18T22:13:28+02:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   
   <url>
     <loc>http://www.kamilgorlo.com/</loc>
-    <lastmod>2014-08-17T21:33:43+02:00</lastmod>
+    <lastmod>2014-08-18T22:13:28+02:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>1.0</priority>
   </url>
   
   <url>
+    <loc>http://www.kamilgorlo.com/archives/</loc>
+    <lastmod>2014-08-18T22:13:28+02:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  
+  <url>
     <loc>http://www.kamilgorlo.com/about/</loc>
-    <lastmod>2014-08-17T21:33:43+02:00</lastmod>
+    <lastmod>2014-08-18T22:13:28+02:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
