@@ -7,7 +7,8 @@ title: Kamil Gorlo
 subtitle: a software engineer from Warsaw, Poland
 author: Kamil Gorlo
 simple_search: https://www.google.com/search
-description: software engineer's blog about Java, Scala, JVM, distributed systems, data anylysis and many more
+description: Software engineer's blog about programming in Java, Scala and other JVM languages. Topics include also distribited systems, data analysis and more.
+keywords: Kamil Gorlo, tech blog, software enginner, Java, Scala, Groovy, JVM, distributed systems, big data, data analysis
 
 # Default date format is "ordinal" (resulting in "July 22nd 2007")
 # You can customize the format as defined in
@@ -27,12 +28,12 @@ email: kgorlo+blog@gmail.com
 
 # If publishing to a subdirectory as in http://site.com/project set 'root: /project'
 root: /
-permalink: /blog/:year/:month/:day/:title/
+permalink: /:year/:month/:day/:title/
 source: source
 destination: public
 plugins: plugins
 code_dir: downloads/code
-category_dir: blog/categories
+category_dir: categories
 markdown: rdiscount
 rdiscount:
   extensions:
