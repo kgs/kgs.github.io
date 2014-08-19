@@ -91,6 +91,9 @@ pinboard_count: 3
 delicious_user:
 delicious_count: 3
 
+# LinkedIn
+linkedin_user: kgorlo
+
 # Disqus Comments
 disqus_short_name: kamilgorlo
 disqus_show_comment_count: true
