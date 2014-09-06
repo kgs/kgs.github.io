@@ -4,7 +4,7 @@
   <title><![CDATA[Category: Life | Kamil Gorlo]]></title>
   <link href="http://www.kamilgorlo.com/categories/life/atom.xml" rel="self"/>
   <link href="http://www.kamilgorlo.com/"/>
-  <updated>2014-08-20T19:43:58+02:00</updated>
+  <updated>2014-09-06T19:41:14+02:00</updated>
   <id>http://www.kamilgorlo.com/</id>
   <author>
     <name><![CDATA[Kamil Gorlo]]></name>
@@ -23,9 +23,32 @@
 <!-- more -->
 
 
-<p>This is one of the ideas that you have, but because of your laziness or lack of time you decide to give up.</p>
+<p>This is one of the ideas that you have, but because of your lack of time (or whatever) you decide to give up. That was also my case. I&rsquo;ve planned to create my own blog for quite some time and now finally decided to give it a go. Worst part is now over - I&rsquo;ve started ;) Even if frequency of posts will be poor, I think it is still worth it because of few reasons. I&rsquo;ll try to explain them in next paragraph.</p>
 
-<p>TBC&hellip;</p>
+<h3>Why it started</h3>
+
+<ul>
+<li><p>I&rsquo;ve had very inspiring episode in my professional career. I was leader of laboratory group for “Programming Languages and Tools” course at University of Warsaw. It was great (very tiring when mixed with full time work, but great). When I was teaching students different aspects of C++ programming I think I&rsquo;ve learned even more myself. Teaching is the best learning method. Let&rsquo;s not forget about feedback from others (in this case - students) which is priceless.</p>
+
+<p>I hope you already know what I&rsquo;m trying to tell. Writing about recently learned <em>thing</em> will be a great way of memorizing and understanding it. Blog is also much less absorbing than teaching classes at university, of course :)</p></li>
+<li><p>I trust that somehow I will help other people solve problems I&rsquo;ve spent time on. Without all these tech blogs and especially <a href="http://stackoverflow.com/">StackOverflow</a> my life would be so much harder. This is my try to give back to community.</p></li>
+<li>Last, but not least - self branding. That&rsquo;s another motivation to start blogging and I&rsquo;ve learned about it recently from this great post: <a href="http://chase-seibert.github.io/blog/2014/08/01/why-blogging.html">&ldquo;Why software engineers should maintain a blog&rdquo;</a>. Go and read it, you will not regret.</li>
+</ul>
+
+
+<h3>Real reason?</h3>
+
+<p>OK, let&rsquo;s make things clear. I&rsquo;m tech guy. What is the most interesting part of blogging for me? Technology of course! In the last few weeks, thanks to Tomasz Dziurko and his <a href="http://tomaszdziurko.pl">blog</a>, I&rsquo;ve discovered <a href="http://octopress.org/">Octopress</a> - a blogging platform for hackers. And then I&rsquo;ve finally felt it - this is it! Idea of writing blog as markdown pages (where you can use versioning system, like Git for example) and then generating static HTML was brilliant. I do not even need own hosting because of excellent <a href="https://pages.github.com/">GitHub Pages</a>. Templates are clean, focused on readability and you can easily paste source code (which looks great, does not break anything , even on mobile devices).</p>
+
+<p>Of course, before choosing Octopress, I&rsquo;ve made a research (I love doing research - who doesn&rsquo;t?). I have considered using <a href="http://jekyllrb.com/">Jekyll</a> alone or with <a href="http://getpoole.com/">Poole</a>. Poole is really nice if you want to start with even simpler blog, I highly recommend it. It comes with two additional, polished, responsive templates (<a href="http://hyde.getpoole.com/">Hyde</a> and <a href="http://lanyon.getpoole.com/">Lanyon</a>) and it&rsquo;s very easy to setup with GitHub (you can find very good blog post about it <a href="http://joshualande.com/jekyll-github-pages-poole/">here</a>). Nevertheless, I&rsquo;ve decided to stick with Octopress which gives me a bit higher abstraction layer over Jekyll and comes with many plugins for categories, syntax highlighting and more.</p>
+
+<h3>Final words</h3>
+
+<p>My writing skills are not perfect - I know it. What&rsquo;s even worse, I&rsquo;ve decided to write in English which is not my native language. I know that sometimes it will be painful for you to read my posts, because of grammar errors, punctuation errors or nonsense phrases. I&rsquo;ll try to do my best to eliminate them (that&rsquo;s one of the reasons I&rsquo;ve started writing!), but what is more important for me is to write something, share ideas and do not worry about not-so-perfect form.</p>
+
+<p>OK, I think that&rsquo;s it for beginning. If you want to read more about me (or more about this blog), please visit <a href="/about">about</a> page.</p>
+
+<p>Enjoy!</p>
 ]]></content>
   </entry>
   
