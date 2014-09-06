@@ -2,6 +2,7 @@
 layout: post
 title: "Why blog?"
 date: 2014-08-16 16:45:55 +0200
+updated: 2014-09-06 18:00:42 +0200
 comments: true
 categories: life
 ---
@@ -10,6 +11,39 @@ OK, this is awkward. My first blog post. I never thought that this moment would 
 
 <!-- more -->
 
-This is one of the ideas that you have, but because of your laziness or lack of time you decide to give up.
+This is one of the ideas that you have, but because of your lack of time (or whatever) you decide to give up. That was also my case. I've planned to create my own blog for quite some time and now finally decided to give it a go. Worst part is now over - I've started ;) Even if frequency of posts will be poor, I think it is still worth it because of few reasons. I'll try to explain them in next paragraph.
 
-TBC...
+### Why it started
+
+* I've had very inspiring episode in my professional career. I was leader of laboratory group for “Programming Languages and Tools” course at University of Warsaw. It was great (very tiring when mixed with full time work, but great). When I was teaching students different aspects of C++ programming I think I've learned even more myself. Teaching is the best learning method. Let's not forget about feedback from others (in this case - students) which is priceless.
+
+  I hope you already know what I'm trying to tell. Writing about recently learned _thing_ will be a great way of memorizing and understanding it. Blog is also much less absorbing than teaching classes at university, of course :)
+
+* I trust that somehow I will help other people solve problems I've spent time on. Without all these tech blogs and especially [StackOverflow][stack] my life would be so much harder. This is my try to give back to community.
+* Last, but not least - self branding. That's another motivation to start blogging and I've learned about it recently from this great post: ["Why software engineers should maintain a blog"][branding]. Go and read it, you will not regret.
+
+### Real reason?
+
+OK, let's make things clear. I'm tech guy. What is the most interesting part of blogging for me? Technology of course! In the last few weeks, thanks to Tomasz Dziurko and his [blog][tdziurko], I've discovered [Octopress][octopress] - a blogging platform for hackers. And then I've finally felt it - this is it! Idea of writing blog as markdown pages (where you can use versioning system, like Git for example) and then generating static HTML was brilliant. I do not even need own hosting because of excellent [GitHub Pages][pages]. Templates are clean, focused on readability and you can easily paste source code (which looks great, does not break anything , even on mobile devices).
+
+Of course, before choosing Octopress, I've made a research (I love doing research - who doesn't?). I have considered using [Jekyll][jekyll] alone or with [Poole][poole]. Poole is really nice if you want to start with even simpler blog, I highly recommend it. It comes with two additional, polished, responsive templates ([Hyde][hyde] and [Lanyon][lanyon]) and it's very easy to setup with GitHub (you can find very good blog post about it [here][poole_tutorial]). Nevertheless, I've decided to stick with Octopress which gives me a bit higher abstraction layer over Jekyll and comes with many plugins for categories, syntax highlighting and more.
+
+### Final words
+
+My writing skills are not perfect - I know it. What's even worse, I've decided to write in English which is not my native language. I know that sometimes it will be painful for you to read my posts, because of grammar errors, punctuation errors or nonsense phrases. I'll try to do my best to eliminate them (that's one of the reasons I've started writing!), but what is more important for me is to write something, share ideas and do not worry about not-so-perfect form.
+
+OK, I think that's it for beginning. If you want to read more about me (or more about this blog), please visit [about][about] page.
+
+Enjoy!
+
+[tdziurko]: http://tomaszdziurko.pl
+[octopress]: http://octopress.org/
+[about]: /about
+[pages]: https://pages.github.com/
+[jekyll]: http://jekyllrb.com/
+[poole]: http://getpoole.com/
+[hyde]: http://hyde.getpoole.com/
+[lanyon]: http://lanyon.getpoole.com/
+[poole_tutorial]: http://joshualande.com/jekyll-github-pages-poole/
+[stack]: http://stackoverflow.com/
+[branding]: http://chase-seibert.github.io/blog/2014/08/01/why-blogging.html
