@@ -4,6 +4,7 @@ title: "about"
 comments: false
 sharing: false
 footer: false
+description: Hello, my name is Kamil Gorlo and I'm software engineer living in Warsaw, Poland.
 ---
 
 {% img portrait /images/me.png That's me! %}
