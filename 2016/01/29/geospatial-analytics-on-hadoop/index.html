@@ -9,7 +9,7 @@
   <meta name="author" content="Kamil Gorlo">
 
   
-  <meta name="description" content="Few months ago I was working on a project with a lot of geospatial data. Data was stored in HDFS, easily accesible through Hive. One of the tasks was &hellip;">
+  <meta name="description" content="Few months ago I was working on a project with a lot of geospatial data. Data was stored in HDFS, easily accessible through Hive. One of the tasks &hellip;">
   
 
   <!-- http://t.co/dKP3o1e -->
@@ -125,7 +125,7 @@
   </header>
 
 
-<div class="entry-content"><p>Few months ago I was working on a project with a lot of geospatial data. Data was stored in HDFS, easily accesible through Hive. One of the tasks was to analyze this data and first step was to join two datasets on columns which were geographical coordinates. I wanted some easy and efficient solution. But here is the problem - there is very little support for this kind of operations in Hadoop world.</p>
+<div class="entry-content"><p>Few months ago I was working on a project with a lot of geospatial data. Data was stored in HDFS, easily accessible through Hive. One of the tasks was to analyze this data and first step was to join two datasets on columns which were geographical coordinates. I wanted some easy and efficient solution. But here is the problem - there is very little support for this kind of operations in Hadoop world.</p>
 
 <!-- more -->
 
@@ -213,7 +213,7 @@
 </span></code></pre></td></tr></table></div></figure></notextile></div>
 
 
-<p>If you know <a href="http://postgis.net/">Postgis</a> (GIS extension for PostgreSQL) this will look very familiar to you, because syntax is similar. Unofortunately these kind of queries are very inefficient in Hive. Hive will do cross join and it means that for big datasets computations will last for unacceptable amount of time.</p>
+<p>If you know <a href="http://postgis.net/">Postgis</a> (GIS extension for PostgreSQL) this will look very familiar to you, because syntax is similar. Unfortunately these kind of queries are very inefficient in Hive. Hive will do cross join and it means that for big datasets computations will last for unacceptable amount of time.</p>
 
 <h4>Spatial binning</h4>
 
@@ -246,7 +246,7 @@
 </span></code></pre></td></tr></table></div></figure></notextile></div>
 
 
-<p>It is definetely library to watch, but as for now it&rsquo;s not so useful in my opinion, mainly because it&rsquo;s lacking features. If you want to know more, please visit Magellan <a href="https://github.com/harsha2010/magellan">github page</a>.</p>
+<p>It is definitely library to watch, but as for now it&rsquo;s not so useful in my opinion, mainly because it&rsquo;s lacking features. If you want to know more, please visit Magellan <a href="https://github.com/harsha2010/magellan">github page</a>.</p>
 
 <h3>SpatialSpark</h3>
 
@@ -256,7 +256,7 @@
 
 <ul>
 <li><strong>broadcast spatial join</strong> - it&rsquo;s designed for joining big dataset with smaller one efficiently. Smaller data set is converted to index (R-tree) and kept in memory. Algorithm simply iterates (in distributed way) over big dataset and queries index from the other set efficiently.</li>
-<li><strong>partitioned spatial join</strong> - it&rsquo;s designed for joining two big datasets and uses similiar idea to binning, but it&rsquo;s more complicated and more efficient. Sets are divided into small pieces (you can choose what algorithm could be responsible for this operation - there are few implemented to make splits as equal as possible depending on data characteristics) and then each small piece is processed individually (using R-trees).</li>
+<li><strong>partitioned spatial join</strong> - it&rsquo;s designed for joining two big datasets and uses similar idea to binning, but it&rsquo;s more complicated and more efficient. Sets are divided into small pieces (you can choose what algorithm could be responsible for this operation - there are few implemented to make splits as equal as possible depending on data characteristics) and then each small piece is processed individually (using R-trees).</li>
 </ul>
 
 
@@ -299,7 +299,7 @@
 
 <ul>
 <li><a href="https://github.com/Stratio/cassandra-lucene-index">Cassandra with Lucene index</a> - you can keep data in Cassandra and use secondary index that integrates Lucene features (geospatial search is one of many)</li>
-<li><a href="https://www.elastic.co/guide/en/elasticsearch/guide/current/geohashes.html">Elasticsearch (with Geohashes)</a> - geohashes are a way of encoding latitue and longitude to string, you can keep and query them with Elasticsearch</li>
+<li><a href="https://www.elastic.co/guide/en/elasticsearch/guide/current/geohashes.html">Elasticsearch (with Geohashes)</a> - geohashes are a way of encoding latitude and longitude to string, you can keep and query them with Elasticsearch</li>
 <li><a href="http://www.geomesa.org/">GeoMesa</a> - it&rsquo;s whole geospatial distributed database built on top of Apache Accumulo</li>
 <li><a href="https://ngageoint.github.io/geowave/">GeoWave</a> - very similar to GeoMesa, but a bit newer</li>
 </ul>
