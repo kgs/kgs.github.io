@@ -6,7 +6,7 @@ comments: true
 categories: spark hadoop
 ---
 
-Few months ago I was working on a project with a lot of geospatial data. Data was stored in HDFS, easily accesible through Hive. One of the tasks was to analyze this data and first step was to join two datasets on columns which were geographical coordinates. I wanted some easy and efficient solution. But here is the problem - there is very little support for this kind of operations in Hadoop world.
+Few months ago I was working on a project with a lot of geospatial data. Data was stored in HDFS, easily accessible through Hive. One of the tasks was to analyze this data and first step was to join two datasets on columns which were geographical coordinates. I wanted some easy and efficient solution. But here is the problem - there is very little support for this kind of operations in Hadoop world.
 
 <!-- more -->
 
@@ -68,7 +68,7 @@ SELECT * FROM places, tweets
           );
 ```
 
-If you know [Postgis][postgis] (GIS extension for PostgreSQL) this will look very familiar to you, because syntax is similar. Unofortunately these kind of queries are very inefficient in Hive. Hive will do cross join and it means that for big datasets computations will last for unacceptable amount of time.
+If you know [Postgis][postgis] (GIS extension for PostgreSQL) this will look very familiar to you, because syntax is similar. Unfortunately these kind of queries are very inefficient in Hive. Hive will do cross join and it means that for big datasets computations will last for unacceptable amount of time.
 
 #### Spatial binning
 
@@ -99,7 +99,7 @@ Here is sample code in Spark (using Scala) to do spatial join using *intersects*
 points.join(polygons).where($"point" intersects $"polygon").show()
 ```
 
-It is definetely library to watch, but as for now it's not so useful in my opinion, mainly because it's lacking features. If you want to know more, please visit Magellan [github page][magellan].
+It is definitely library to watch, but as for now it's not so useful in my opinion, mainly because it's lacking features. If you want to know more, please visit Magellan [github page][magellan].
 
 ### SpatialSpark
 
@@ -108,7 +108,7 @@ Third solution and also my favourite one (maybe because I contributed to it a bi
 It's selling feature is that it can do spatial joins efficiently. It supports two kind of joins:
 
  * **broadcast spatial join** - it's designed for joining big dataset with smaller one efficiently. Smaller data set is converted to index (R-tree) and kept in memory. Algorithm simply iterates (in distributed way) over big dataset and queries index from the other set efficiently.
- * **partitioned spatial join** - it's designed for joining two big datasets and uses similiar idea to binning, but it's more complicated and more efficient. Sets are divided into small pieces (you can choose what algorithm could be responsible for this operation - there are few implemented to make splits as equal as possible depending on data characteristics) and then each small piece is processed individually (using R-trees).
+ * **partitioned spatial join** - it's designed for joining two big datasets and uses similar idea to binning, but it's more complicated and more efficient. Sets are divided into small pieces (you can choose what algorithm could be responsible for this operation - there are few implemented to make splits as equal as possible depending on data characteristics) and then each small piece is processed individually (using R-trees).
 
 Here is sample Spark code snippet to do broadcast spatial join for our case with tweets and places:
 
@@ -136,7 +136,7 @@ If you can and want to keep data in some other systems than Hadoop there are few
 Here are the links:
 
  * [Cassandra with Lucene index][stratio] - you can keep data in Cassandra and use secondary index that integrates Lucene features (geospatial search is one of many)
- * [Elasticsearch (with Geohashes)][elastic] - geohashes are a way of encoding latitue and longitude to string, you can keep and query them with Elasticsearch 
+ * [Elasticsearch (with Geohashes)][elastic] - geohashes are a way of encoding latitude and longitude to string, you can keep and query them with Elasticsearch 
  * [GeoMesa][geomesa] - it's whole geospatial distributed database built on top of Apache Accumulo
  * [GeoWave][geowave] - very similar to GeoMesa, but a bit newer
 
