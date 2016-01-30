@@ -1,34 +1,29 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd" xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
-  
-  
+  <url>
+    <loc>http://www.kamilgorlo.com/2016/01/29/geospatial-analytics-on-hadoop/</loc>
+    <lastmod>2016-01-29T12:32:01+01:00</lastmod>
+  </url>
   <url>
     <loc>http://www.kamilgorlo.com/2014/08/16/why-blog/</loc>
     <lastmod>2014-08-16T16:45:55+02:00</lastmod>
-    <priority>0.8</priority>
   </url>
-  
-  
   <url>
     <loc>http://www.kamilgorlo.com/archives/</loc>
-    <lastmod>2014-09-06T20:41:44+02:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.7</priority>
   </url>
-  
   <url>
     <loc>http://www.kamilgorlo.com/</loc>
-    <lastmod>2014-09-06T20:41:44+02:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>1.0</priority>
   </url>
-  
   <url>
     <loc>http://www.kamilgorlo.com/about/</loc>
-    <lastmod>2014-09-06T20:41:44+02:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.7</priority>
   </url>
-  
-  
+  <url>
+    <loc>http://www.kamilgorlo.com/categories/life/</loc>
+  </url>
+  <url>
+    <loc>http://www.kamilgorlo.com/categories/spark/</loc>
+  </url>
+  <url>
+    <loc>http://www.kamilgorlo.com/categories/hadoop/</loc>
+  </url>
 </urlset>
