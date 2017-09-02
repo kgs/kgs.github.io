@@ -7,8 +7,8 @@ title: Kamil Gorlo
 subtitle: a software engineer from Warsaw, Poland
 author: Kamil Gorlo
 simple_search: https://www.google.com/search
-description: Software engineer's blog about programming in Java, Scala and other JVM languages. Topics include also distribited systems, data analysis and more.
-keywords: Kamil Gorlo, tech blog, software enginner, Java, Scala, Groovy, JVM, distributed systems, big data, data analysis
+description: Software engineer's blog about programming, software architecture, operating systems, technology and more!
+keywords: Kamil Gorlo, tech blog, software enginner, programming, Linux, Go, Java, JVM, distributed systems, data analysis, operating systems
 
 # Default date format is "ordinal" (resulting in "July 22nd 2007")
 # You can customize the format as defined in
